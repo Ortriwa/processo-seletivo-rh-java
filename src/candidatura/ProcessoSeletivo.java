@@ -28,7 +28,6 @@ public class ProcessoSeletivo {
             System.out.println("NÃO CONSEGUIMOS CONTATO COM " + candidato + ", NÚMERO MAXIMO TENTATIVAS " + tentativasRealizadas + " REALIZADA");
     }
 
-    //método auxiliar
     static boolean atender() {
         return new Random().nextInt(3)==1;
     }
